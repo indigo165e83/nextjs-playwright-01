@@ -1,7 +1,7 @@
 # 動作確認用サイト
 
 下記を使用しています。
-https://indigo5d5d8d.com/nextjs-playwright-01
+https://nextjs-playwright-01.indigo5d5d8d.com/
 
 # Chrome（WSL の Ubuntu 上）を手動で起動しておく手順
 
