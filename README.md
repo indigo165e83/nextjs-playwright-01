@@ -1,3 +1,8 @@
+# 動作確認用サイト
+
+下記を使用しています。
+https://indigo5d5d8d.com/nextjs-playwright-01
+
 # Chrome（WSL の Ubuntu 上）を手動で起動しておく手順
 
 あらかじめ以下のコマンドを実行して、Chrome（WSL の Ubuntu 上）を手動で起動しておきます。  
@@ -9,7 +14,7 @@ google-chrome \
   --remote-debugging-port=9222 \
   --user-data-dir=$HOME/playwright-prof/[path to profile] &
 ```
-# 各オプションの説明
+## 各オプションの説明
 
 ---
 
