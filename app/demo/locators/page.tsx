@@ -32,6 +32,12 @@ export default function Demo01() {
               <span className="inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium">
                 Welcome, John
               </span>
+            </div>
+          </section>
+
+          <section className="rounded-2xl border bg-white p-6 shadow-sm md:col-span-1">
+            <h2 className="mb-4 text-xl font-semibold">Title</h2>
+            <div className="flex items-center gap-3">
               <span
                 className="inline-flex items-center rounded-full bg-slate-900 px-3 py-1 text-xs font-medium text-white"
                 title="Issues count"
