@@ -87,10 +87,10 @@ export default function Home() {
 
         <div className="my-3 flex flex-wrap gap-3">
           <Link
-            href="/demo01"
+            href="/demo/locators"
             className="py-2 text-base font-semibold hover:opacity-90 underline"
           >
-            Demo Page 01
+            Locators Demo 01
           </Link>
         </div>
 
