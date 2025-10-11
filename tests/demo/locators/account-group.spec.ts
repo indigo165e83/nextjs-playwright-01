@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('Account group tests', async ({ page }) => {
-  await page.goto('http://localhost:3002/demo/locators');
+  await page.goto('/demo/locators');
 
   //await page.getByRole('button', { name: 'Sign in' }).click();
   const locator = page.getByRole('button', { name: 'Sign in' });
