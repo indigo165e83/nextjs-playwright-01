@@ -120,17 +120,14 @@ export default function Demo01() {
 
           {/* Actions & directions */}
           <section className="rounded-2xl border bg-white p-6 shadow-sm md:col-span-1">
-            <h2 className="mb-4 text-xl font-semibold">Actions</h2>
+            <h2 className="mb-4 text-xl font-semibold">Test Id</h2>
             <div className="flex flex-wrap gap-3">
               <button data-testid="directions" className="rounded-xl border px-4 py-2 text-sm hover:bg-slate-50">
                 Itinéraire
               </button>
-              <button data-pw="directions" className="rounded-xl border px-4 py-2 text-sm hover:bg-slate-50">
-                Itinéraire
-              </button>
             </div>
             <p className="mt-4 text-xs text-slate-500">
-              Buttons above are duplicated intentionally with different attributes for testing.
+              The button above has the “data-testid” attribute assigned for testing purposes.
             </p>
           </section>
 
