@@ -1,6 +1,7 @@
 'use client'
 
 import Link from "next/link";
+import NextImage from "next/image";
 
 export default function Demo01() {
   return (
@@ -26,26 +27,6 @@ export default function Demo01() {
 
         {/* Main grid */}
         <main className="grid grid-cols-1 gap-6 md:grid-cols-3">
-          <section className="rounded-2xl border bg-white p-6 shadow-sm md:col-span-1">
-            <h2 className="mb-4 text-xl font-semibold">Text</h2>
-            <div className="flex items-center gap-3">
-              <span className="inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium">
-                Welcome, John
-              </span>
-            </div>
-          </section>
-
-          <section className="rounded-2xl border bg-white p-6 shadow-sm md:col-span-1">
-            <h2 className="mb-4 text-xl font-semibold">Title</h2>
-            <div className="flex items-center gap-3">
-              <span
-                className="inline-flex items-center rounded-full bg-slate-900 px-3 py-1 text-xs font-medium text-white"
-                title="Issues count"
-              >
-                25 issues
-              </span>
-            </div>
-          </section>
 
           {/* Auth card */}
           <section className="rounded-2xl border bg-white p-6 shadow-sm md:col-span-1">
@@ -101,6 +82,40 @@ export default function Demo01() {
                 </button>
               </div>
             </form>
+          </section>
+
+          <section className="rounded-2xl border bg-white p-6 shadow-sm md:col-span-1">
+            <h2 className="mb-4 text-xl font-semibold">Text</h2>
+            <div className="flex items-center gap-3">
+              <span className="inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium">
+                Welcome, John
+              </span>
+            </div>
+          </section>
+
+          <section className="rounded-2xl border bg-white p-6 shadow-sm md:col-span-1">
+            <h2 className="mb-4 text-xl font-semibold">Title</h2>
+            <div className="flex items-center gap-3">
+              <span
+                className="inline-flex items-center rounded-full bg-slate-900 px-3 py-1 text-xs font-medium text-white"
+                title="Issues count"
+              >
+                25 issues
+              </span>
+            </div>
+          </section>
+
+          <section className="rounded-2xl border bg-white p-6 shadow-sm md:col-span-1">
+            <h2 className="mb-4 text-xl font-semibold">Alt Text</h2>
+            <div className="flex items-center gap-3">
+              <NextImage 
+                src="/playwright-logo.svg" 
+                alt="playwright logo" 
+                width={100}
+                height={100}
+                priority
+              />
+            </div>
           </section>
 
           {/* Actions & directions */}
